@@ -2188,6 +2188,7 @@ metadata:
   namespace: baremetal-operator-system
 spec:
   minReadySeconds: 10
+  progressDeadlineSeconds: 1200
   replicas: 1
   selector:
     matchLabels:
