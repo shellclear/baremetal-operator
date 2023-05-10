@@ -12,6 +12,7 @@ spec:
       control-plane: controller-manager
   replicas: 1
   minReadySeconds: 10
+  progressDeadlineSeconds: 900
   template:
     metadata:
       labels:
